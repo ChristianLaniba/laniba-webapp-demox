@@ -248,7 +248,7 @@ export default function Home() {
               
               <div className="mb-8">
                 <h4 className="text-xl font-bold mb-4 text-gray-800">Color Palette:</h4>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-gray-900">
                   {['red', 'blue', 'green', 'yellow', 'purple', 'pink'].map((color) => (
                     <div key={color} className="text-center">
                       <div 
