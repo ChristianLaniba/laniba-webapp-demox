@@ -4,19 +4,20 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Navigation Menu */}
-      <nav className="bg-white shadow-lg">
+      <nav className="bg-indigo-500 shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-indigo-600">Tailwind Tutorial by Christian Laniba</h1>
+              <h1 className="text-2xl font-bold text-white-600">Tailwind Tutorial by Christian Laniba</h1>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#step1" className="text-gray-700 hover:text-indigo-600 transition">Step 1</a>
-              <a href="#step2" className="text-gray-700 hover:text-indigo-600 transition">Step 2</a>
-              <a href="#step3" className="text-gray-700 hover:text-indigo-600 transition">Step 3</a>
-              <a href="#step4" className="text-gray-700 hover:text-indigo-600 transition">Step 4</a>
-              <a href="#step5" className="text-gray-700 hover:text-indigo-600 transition">Step 5</a>
-              <a href="#layouts" className="text-gray-700 hover:text-indigo-600 transition">Layouts</a>
+              <a href="#step1" className="text-gray-700 hover:text-gray-100 transition">Step 1</a>
+              <a href="#step2" className="text-gray-700 hover:text-gray-100 transition">Step 2</a>
+              <a href="#step3" className="text-gray-700 hover:text-gray-100 transition">Step 3</a>
+              <a href="#step4" className="text-gray-700 hover:text-gray-100 transition">Step 4</a>
+              <a href="#step5" className="text-gray-700 hover:text-gray-100 transition">Step 5</a>
+              <a href="#step6" className="text-gray-700 hover:text-gray-100 transition">Step 6</a>
+              <a href="#layouts" className="text-gray-700 hover:text-gray-100 transition">Step 7</a>
             </div>
             <button className="md:hidden">
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
